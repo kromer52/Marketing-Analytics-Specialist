@@ -228,10 +228,10 @@ section {
   margin-bottom: 3rem;
 }
 
-/* Unified skill-box */
+/* Skill-box with second highlight color */
 .skill-box {
   flex: 1 1 250px;
-  background: #D9DAF2;
+  background: #6A6CCF; /* second highlight color */
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 8px;
@@ -239,7 +239,7 @@ section {
 
 .skill-box h3 {
   margin-top: 0;
-  color: #333;
+  color: #fff;
 }
 
 .skill-box ul {
@@ -248,6 +248,7 @@ section {
 
 .skill-box li {
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 blockquote {
@@ -304,7 +305,7 @@ cite {
   flex: 1 1 30%;
 }
 
-/* Unified testimonial-box */
+/* Testimonial-box */
 .testimonial-box {
   background-color: #D9DAF2;
   border-left: 4px solid #191b87;
