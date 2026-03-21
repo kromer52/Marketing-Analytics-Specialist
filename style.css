@@ -213,13 +213,10 @@ h1 {
   position: relative;
   margin-left: 1rem;
   padding-left: 2rem;
-  border-left: 3px solid #4caf50;
+  border-left: 3px solid #6A6CCF;
 }
 
-/* ─────────────────────────────── */
-/* HOME PAGE STYLES — NEW ADDITIONS */
-/* ─────────────────────────────── */
-
+/* HOME PAGE STYLES */
 .summary {
   font-size: 1.1rem;
   margin: 1rem 0 2rem;
@@ -231,8 +228,10 @@ section {
   margin-bottom: 3rem;
 }
 
+/* Unified skill-box */
 .skill-box {
-  background: #E6F2EF;
+  flex: 1 1 250px;
+  background: #D9DAF2;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 8px;
@@ -292,13 +291,6 @@ cite {
   justify-content: space-between;
 }
 
-.skill-box {
-  flex: 1 1 250px;
-  background: #E6F2EF;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
 .job-content {
   display: flex;
   flex-wrap: wrap;
@@ -312,13 +304,14 @@ cite {
   flex: 1 1 30%;
 }
 
+/* Unified testimonial-box */
 .testimonial-box {
-  background-color: #F2FBF9;
+  background-color: #D9DAF2;
   border-left: 4px solid #191b87;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   font-style: italic;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
@@ -356,7 +349,7 @@ cite {
 }
 
 .contact-box {
-  background-color: #F2FBF9; /* lighter blue accent */
+  background-color: #D9DAF2;
   padding: 2rem;
   border-radius: 8px;
   display: flex;
@@ -412,7 +405,7 @@ cite {
 }
 
 .summary-box {
-  background-color: #F2FBF9; /* light blue accent */
+  background-color: #D9DAF2;
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 3rem;
@@ -440,47 +433,4 @@ cite {
 
 .testimonial-inline {
   margin-top: 1.5rem;
-}
-
-.testimonial-box {
-  background-color: #F2FBF9; /* lighter blue accent */
-  border-left: 4px solid #191b87;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  font-style: italic;
-  position: relative;
-}
-
-.testimonial-box::before {
-  content: "“";
-  font-size: 2rem;
-  color: #191b87;
-  position: absolute;
-  top: -10px;
-  left: 10px;
-}
-
-.testimonial-box::after {
-  content: "”";
-  font-size: 2rem;
-  color: #191b87;
-  position: absolute;
-  bottom: -10px;
-  right: 10px;
-}
-
-.testimonial-author {
-  display: block;
-  margin-top: 0.5rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.testimonial-link {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #191b87;
-  text-decoration: underline;
 }
